@@ -12,11 +12,6 @@
               <menuitem id="menu_preferences" disabled="true"/>
         </menubar>
 
-   <popup id="contentAreaContextMenu"
-           onpopupshowing="if (event.target != this) return true; return false;"
-           onpopuphiding="if (event.target == this) gContextMenu = null;">
-   </popup>
-
   <commandset id="mainCommandSet">
     <command id="cmd_newNavigator" disabled="true"/>
     <command id="cmd_handleBackspace" disabled="true"/>
